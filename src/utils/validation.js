@@ -10,7 +10,7 @@ export function validateStep(stepId, formData) {
   };
 
   if (stepId === "pavilionType") {
-    requireField("pavilionType", "Выберите серию павильона");
+    requireField("pavilionType", "Выберите модель павильона");
   }
 
   if (stepId === "parameters") {

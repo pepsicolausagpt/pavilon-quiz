@@ -5,7 +5,7 @@ export default function PavilionTypeStep({ formData, onFieldChange, error }) {
   return (
     <div className="step">
       <div className="step__header">
-        <h2>Выберите серию павильона</h2>
+        <h2>Выберите модель павильона</h2>
       </div>
 
       {error && <p className="field-error">{error}</p>}
